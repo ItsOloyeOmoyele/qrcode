@@ -11,18 +11,18 @@ body {
 }
 
 .content {
-  height: 70vh;
-  width: 27.25rem;
+  height: 60vh;
+  width: 20rem;
   background-color: white;
   flex-direction: column;
   display: flex;
-  margin: 8rem auto;
+  margin: 9rem auto;
   border-radius: 20px;
 }
 
 .img-container {
   width: auto;
-  margin: 1.5em;
+  margin: 1em;
   height: 60%;
 }
 
@@ -34,9 +34,8 @@ img {
 }
 
 .second-section {
-  height: 30%;
-  margin-bottom: 1em;
-  border: 2px solid red;
+  height: 28%;
+  margin-top: 8px;
 }
 
 p {
@@ -47,12 +46,13 @@ p {
 .second-section :nth-child(1) {
   color: hsl(218, 44%, 22%);
   font-weight: 700;
-  font-size: 2em;
+  font-size: 1.4em;
+  margin-bottom: 20px;
 }
 
 .second-section :nth-child(2) {
   color: hsl(220, 15%, 55%);
-  font-size: 1.5em;
+  font-size: 1.1em;
   font-weight: 400;
 }
 
@@ -62,13 +62,13 @@ footer a {
 
 @media (min-width: 374px) and (max-width: 559px) {
   .content {
-    width: 330px;
-    height: 70vh;
-    margin: 11rem auto;
+    max-width: 330px;
+    height: 60vh;
+    margin: 9rem auto;
   }
 
   .img-container {
-    height: 58%;
+    height: 60%;
     margin: 1em;
   }
 
@@ -76,13 +76,18 @@ footer a {
     margin: 0.8em 1em;
   }
 
+  .second-section {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+
   .second-section :nth-child(1) {
     font-weight: 700;
-    font-size: 1.5em;
+    font-size: 1.3em;
   }
 
   .second-section :nth-child(2) {
-    font-size: 1.2em;
+    font-size: 1em;
     font-weight: 400;
   }
 }
