@@ -1,3 +1,5 @@
+@import url("https://fonts.googleopis.com/css2?family=Outfit&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -6,17 +8,17 @@
 
 body {
   font-size: 15px;
-  font-family: Outfit, sans-serif;
+  font-family: "Outfit", sans-serif;
   background-color: hsl(212, 45%, 89%);
 }
 
 .content {
-  height: 62vh;
-  width: 18rem;
+  height: 60vh;
+  width: 19rem;
   background-color: white;
   flex-direction: column;
   display: flex;
-  margin: 7rem auto;
+  margin: 8rem auto;
   border-radius: 20px;
 }
 
@@ -38,7 +40,7 @@ img {
 }
 
 p {
-  margin: 0.5em 1em;
+  margin: 0.5em 1.2em;
   text-align: center;
 }
 
@@ -55,14 +57,19 @@ p {
   font-weight: 400;
 }
 
-footer a {
-  color: hsl(228, 45%, 44%);
+footer {
+  position: absolute;
+  bottom: 10px;
 }
 
-@media (min-width: 374px) and (max-width: 559px) {
+footer a {
+  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+}
+
+@media screen and (width <= 559px) {
   .content {
-    max-width: 330px;
-    height: 60vh;
+    min-width: 320px;
     margin: 9rem auto;
   }
 
